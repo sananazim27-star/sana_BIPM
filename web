@@ -1,0 +1,96 @@
+---
+title: Sana Fathima Srambicool
+---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fraunces:wght@600&family=Nunito:wght@400;700&display=swap');
+
+body { background: #fdf8f3; color: #43413a; }
+.markdown-body { font-family: 'Nunito', sans-serif; font-size: 18px; line-height: 1.75; }
+.markdown-body > h1:first-child { display: none; }
+h2 { font-family: 'Fraunces', serif; color: #6b7a4a; border: none !important; font-size: 2em; margin: 70px 0 10px; }
+h2 + p { color: #8d8b7e; margin-top: 0; }
+
+/* hello card */
+.top { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: space-between;
+       background: #f5efe6; border-radius: 28px; padding: 44px 48px; margin-top: 20px; }
+.top h1 { font-family: 'Caveat', cursive; font-size: 4em; color: #6b7a4a; margin: 0; line-height: 1; border: none; }
+.top .sub { font-weight: 700; color: #6b7a4a; margin: 8px 0 2px; }
+.top p { margin: 0 0 16px; }
+.top img { width: 215px; height: 215px; object-fit: cover; border-radius: 50%; border: 8px solid white; }
+.btn { display: inline-block; background: #6b7a4a; color: white !important; padding: 9px 26px; border-radius: 30px; text-decoration: none !important; }
+.btn:hover { background: #e2a0a8; }
+
+/* journey */
+.step { display: flex; gap: 18px; align-items: baseline; padding: 14px 0; border-bottom: 1px dashed #e2ddd0; }
+.step .yr { font-family: 'Caveat', cursive; font-size: 1.5em; color: #e2a0a8; min-width: 150px; }
+.step b { color: #4e5a33; }
+.step span { color: #8d8b7e; font-size: 0.92em; }
+
+iframe { width: 100%; height: 430px; border: 8px solid white; border-radius: 22px; margin-top: 26px; }
+
+/* polaroids */
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 22px; }
+.pola { background: white; padding: 10px 10px 6px; box-shadow: 0 5px 16px rgba(0,0,0,0.09); text-align: center;
+        font-family: 'Caveat', cursive; font-size: 1.45em; color: #6b7a4a; }
+.pola img { width: 100%; display: block; }
+.pola:nth-child(odd) { transform: rotate(-2deg); }
+.pola:nth-child(even) { transform: rotate(2deg); }
+.pola:hover { transform: rotate(0) scale(1.04); transition: 0.3s; }
+
+.footer { text-align: center; font-family: 'Caveat', cursive; font-size: 1.6em; color: #b8b5a4; margin: 80px 0 20px; }
+</style>
+
+<div class="top">
+  <div>
+    <h1>Hi, I'm Sana!</h1>
+    <p class="sub">Sana Fathima Srambicool</p>
+    <p>Originally from India, grew up in Dubai,<br>now studying Business Intelligence &amp; Process Management at HWR Berlin.</p>
+    <a class="btn" href="PASTE-YOUR-LINKEDIN-LINK-HERE">LinkedIn</a>
+  </div>
+  <img src="me.jpg"/>
+</div>
+
+## My Journey
+
+<div class="step"><span class="yr">until 2021</span><div><b>School, CBSE Class 12</b><br><span>Delhi Private School, Dubai</span></div></div>
+<div class="step"><span class="yr">2021 – 2022</span><div><b>Studienkolleg</b><br><span>Berlin International College</span></div></div>
+<div class="step"><span class="yr">2022 – 2026</span><div><b>B.Eng. Business and Engineering</b><br><span>THWS, Schweinfurt</span></div></div>
+<div class="step"><span class="yr">2025</span><div><b>Intern, Sales Acquisition Management</b><br><span>Robert Bosch GmbH, Stuttgart</span></div></div>
+<div class="step"><span class="yr">2025 – 2026</span><div><b>Bachelor's Thesis Student</b><br><span>Robert Bosch GmbH, Stuttgart</span></div></div>
+<div class="step"><span class="yr">2026</span><div><b>Pre-Master, Business Digitization (Purchasing)</b><br><span>Robert Bosch GmbH, Stuttgart</span></div></div>
+<div class="step"><span class="yr">since 2026</span><div><b>M.Sc. Business Intelligence &amp; Process Management</b><br><span>HWR Berlin</span></div></div>
+
+<iframe src="journey_map.html"></iframe>
+
+## Places I've lived
+
+<div class="grid">
+<div class="pola"><img src="dubai.jpg"/>Dubai</div>
+<div class="pola"><img src="schweinfurt.jpg"/>Schweinfurt</div>
+<div class="pola"><img src="stuttgart.jpg"/>Stuttgart</div>
+<div class="pola"><img src="berlin.jpg"/>Berlin</div>
+</div>
+
+## A few of my favourite things
+
+Reading, baking, travelling, food, matcha, spring, beaches, and sleeping.
+
+<div class="grid">
+<div class="pola"><img src="baking.jpg"/>baking</div>
+<div class="pola"><img src="muffins.jpg"/>little cakes</div>
+<div class="pola"><img src="matcha.jpg"/>matcha</div>
+<div class="pola"><img src="food.jpg"/>food</div>
+<div class="pola"><img src="travelling.jpg"/>Istanbul</div>
+<div class="pola"><img src="lake.jpg"/>Eibsee</div>
+<div class="pola"><img src="spring.jpg"/>spring</div>
+<div class="pola"><img src="flowers.jpg"/>flowers</div>
+</div>
+
+## And my favourite people
+
+<div class="grid">
+<div class="pola"><img src="friends.jpg"/>my girls</div>
+</div>
+
+<p class="footer">thanks for stopping by! · Sana, BIPM 2026</p>
